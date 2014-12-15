@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>au.com.pazzul</groupId>
+    <artifactId>NXTBUS-Android</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- SIRI POJOs -->
+        <dependency>
+            <groupId>edu.usf.cutr.siri</groupId>
+            <artifactId>onebusaway-siri-api-v13-pojos</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!-- SiriRestClient library -->
+        <dependency>
+            <groupId>edu.usf.cutr.siri</groupId>
+            <artifactId>sirirestclient</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.usf.cutr.android.xml</groupId>
+            <artifactId>jackson-dataformat-xml-android</artifactId>
+            <version>2.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.usf.cutr.android.xml</groupId>
+            <artifactId>stax2-api-android</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.usf.cutr.android.xml</groupId>
+            <artifactId>stax-api-android</artifactId>
+            <version>1.0-2</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.usf.cutr.android.xml</groupId>
+            <artifactId>aalto-xml-android</artifactId>
+            <version>0.9.8</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>cutr-snapshots</id>
+            <url>https://github.com/CUTR-at-USF/cutr-mvn-repo/raw/master/snapshots</url>
+        </repository>
+        <repository>
+            <id>cutr-releases</id>
+            <url>https://github.com/CUTR-at-USF/cutr-mvn-repo/raw/master/releases</url>
+        </repository>
+    </repositories>
+</project>
