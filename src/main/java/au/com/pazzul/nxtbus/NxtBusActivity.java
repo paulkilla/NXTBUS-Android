@@ -46,7 +46,27 @@ public class NxtBusActivity extends Activity {
                 directionRefInt,
                 stopMonitoringDetailLevel,
                 maximumNumberOfCallsOnwardsInt);
-        System.out.println("Test");
+        System.out.println("Test: " + siri.getServiceDelivery().getResponseTimestamp().toString());
 
+    }
+
+    private String getDeveloperKey() {
+        return "";
+    }
+
+    public String getOperatorRef() {
+        return "";
+    }
+
+    public String getStopId() {
+        return "";
+    }
+
+    public String getRouteId() {
+        return "";
+    }
+
+    public int getDirectionInt() {
+        return 0;
     }
 }
