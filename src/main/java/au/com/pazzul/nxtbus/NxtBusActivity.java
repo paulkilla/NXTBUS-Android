@@ -49,7 +49,7 @@ public class NxtBusActivity extends Activity {
                         "\n" +
                         "<RequestTimestamp>2013-12-29T14:09:41.000+01:00</RequestTimestamp>\n" +
                         "\n" +
-                        "<RequestorRef>B5233</RequestorRef>\n" +
+                        "<RequestorRef>"+Constants.API_KEY+"</RequestorRef>\n" +
                         "\n" +
                         "</CheckStatusRequest>\n" +
                         "\n" +
