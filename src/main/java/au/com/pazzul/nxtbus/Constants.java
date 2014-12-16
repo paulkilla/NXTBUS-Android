@@ -54,5 +54,7 @@ public class Constants {
     @Deprecated
     public static String URL_EST_REQUEST = HOST + "/" + API_KEY + "/" + EST_TIMETABLE + "/" + REQUEST;
 
+    public static String SIRI_START_ENVELOPE = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" standalone=\"yes\"?><Siri version=\"2.0\" xmlns:ns2=\"http://www.ifopt.org.uk/acsb\" xmlns=\"http://www.siri.org.uk/siri\" xmlns:ns4=\"http://datex2.eu/schema/2_0RC1/2_0\" xmlns:ns3=\"http://www.ifopt.org.uk/ifopt\">\n";
+    public static String SIRI_END_ENVELOPE = "\n</Siri>";
 
 }
