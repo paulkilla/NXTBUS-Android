@@ -67,7 +67,6 @@ public class Tester {
                 e.printStackTrace();
             }
             System.out.println("Test: ");
-            System.out.println(Constants.CURRENT_TIMESTAMP);
         } catch (Exception e) {
             e.printStackTrace();
         }
