@@ -9,49 +9,23 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!-- SIRI POJOs -->
         <dependency>
-            <groupId>edu.usf.cutr.siri</groupId>
-            <artifactId>onebusaway-siri-api-v13-pojos</artifactId>
-            <version>1.0.0</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
         </dependency>
 
-        <!-- SiriRestClient library -->
         <dependency>
-            <groupId>edu.usf.cutr.siri</groupId>
-            <artifactId>sirirestclient</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>org.robolectric</groupId>
+            <artifactId>robolectric</artifactId>
+            <version>2.4</version>
         </dependency>
         <dependency>
-            <groupId>edu.usf.cutr.android.xml</groupId>
-            <artifactId>jackson-dataformat-xml-android</artifactId>
-            <version>2.1.2</version>
-        </dependency>
-        <dependency>
-            <groupId>edu.usf.cutr.android.xml</groupId>
-            <artifactId>stax2-api-android</artifactId>
-            <version>3.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>edu.usf.cutr.android.xml</groupId>
-            <artifactId>stax-api-android</artifactId>
-            <version>1.0-2</version>
-        </dependency>
-        <dependency>
-            <groupId>edu.usf.cutr.android.xml</groupId>
-            <artifactId>aalto-xml-android</artifactId>
-            <version>0.9.8</version>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+            <version>4.1.1.4</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>cutr-snapshots</id>
-            <url>https://github.com/CUTR-at-USF/cutr-mvn-repo/raw/master/snapshots</url>
-        </repository>
-        <repository>
-            <id>cutr-releases</id>
-            <url>https://github.com/CUTR-at-USF/cutr-mvn-repo/raw/master/releases</url>
-        </repository>
-    </repositories>
 </project>
